@@ -3,6 +3,9 @@
 ## Overview of Election Audit
 For Deliverables one and tow we had to modify our initial code to include data pertaining to county turnout. With fairly basic and rudimentary additions to the code, we were able to achieve this. Almost none of the existing code that focused on the number of votes for each candidate needed to be changed at all. 
 
+![Screenshot_of_Terminal](https://user-images.githubusercontent.com/66881241/89145499-d3038f00-d505-11ea-96a1-382391c401c9.png)
+
+
 ### Changes Made
 We essentially had to do the same things for counties that was initially in the code for candidates. This included making a "county votes" dictionary and a list to hold the names of all of our counties. Likewise, I used indexing to initialize the variable for county name at index 2. 
 
