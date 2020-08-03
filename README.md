@@ -19,16 +19,33 @@ Similarly, to print out the largest county by votes, we had to create variables 
 There were some differences between what I printed on the terminal and what was written to the txt file. Making these changes warranted some tinkering with \n in strategic locations.
 
 ## Election Audit Results
-The results of the election were that Denver county had the largest county turnout followed by Jefferson county and then Arapahoe. 82.8% of the votes came from Denver, 10.5% came from Jefferson, and 6.7% came from Arapahoe. This is generally what I would expect.
+- Total Votes: 369,711
+
+Winner of the Election:
+- Diana DeGette
+
+Votes By Candidate:
+- 85,213 votes (23.0%) for Charles Casper Stockham
+- 272,892 votes (73.8%) for Diana DeGette
+-11,606 votes (3.1%) for Raymon Anthony Doane
+
+The results of the election by county:
+* Denver county had the largest county turnout 
+* Jefferson county had the second largest
+* Arapahoe had the third largest. 
+
+The Percentage Breakdown by County:
+- 82.8% of the votes came from Denver. 
+- 10.5% came from Jefferson.
+- 6.7% came from Arapahoe. 
 
 ## Election Audit Summary
 
 ### Challenges
-There were some bumps along the way. I kept getting an indentation error, however, over time I came to understand this is really just a syntax error. The changes I made to fix this error almost never involved indentation and almost always involved some sort of incorrect syntax. Getting the terminal print and the txt file just how they needed to be with the spaces and dashes was difficult, but I was able to adapt and eventually got it just right. I was new to file paths at the beginning of this module, so working with them in the code certainly presented challenges of its own but I now have a robust understanding of this concept and how to keep it working in my code even when I change the location of my files.
-
-### Summary
-The changes we made to make this election audit include county information wasa relatively painless and straightforward. It involved repeating what we did initially in the code with the candidates which speaks to the usefullness of this code pattern involving the use of lists and dictionaries to tally numbers in relation to names. 
+There were some bumps along the way. I kept getting an indentation error, however, over time I came to understand this is really just a syntax error. The changes I made to fix this error almost never involved indentation and almost always involved some sort of incorrect syntax. Getting the terminal print and the txt file just how they needed to be with the spaces and dashes was difficult, but I was able to adapt and eventually got it just right. I was new to file paths at the beginning of this module, so working with them in the code certainly presented challenges of its own but I now have a robust understanding of this concept and how to keep it working in my code even when I change the location of my files. The changes we made to make this election audit include county information was relatively painless and straightforward. It involved repeating what we did initially in the code with the candidates which speaks to the usefullness of this code pattern involving the use of lists and dictionaries to tally numbers in relation to names. 
 
 ![Screen Shot 2020-08-02 at 8 52 45 PM](https://user-images.githubusercontent.com/66881241/89144535-ebbe7580-d502-11ea-9cac-bc91921a3f2a.png)
 
-Similarly, the method of assigning a visual presentation of the data and then assigning it to a variable that we later print is likely a method of coding that makes this code all the more readable and sleek.
+
+### Summary
+This script can be used for any election so long as the format of the csv file used has the same information in the same columns as the election_results.csv used in this analysis. Furthermore, the csv file must be in the same location relative to this python script in order to function properly. Some other minor changes will need to be made to the Python script regarding the file paths of the csv it is using and the file you will want to have the results written to. This is an easy process and this script will be an election option to use for further elections in the future.
